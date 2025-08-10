@@ -109,27 +109,32 @@ export default function App() {
             </div>
           </div>
 
-          {/* Hero collage */}
+          {/* Hero image collage */}
           <div className="grid grid-cols-3 gap-3">
             <div className="col-span-2 row-span-2 rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
                 alt="Sneaker wall"
                 className="h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1556909212-d5c31eaad5a8?q=80&w=1200&auto=format&fit=crop"
+                referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1556909212-d5c31eaad5a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80"
               />
             </div>
+          
             <div className="rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
                 alt="Clothing rack"
                 className="h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?q=80&w=800&auto=format&fit=crop"
+                referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
               />
             </div>
+          
             <div className="rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
                 alt="Sorting donations"
                 className="h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1620799139500-cf2c9c5f19f8?q=80&w=800&auto=format&fit=crop"
+                referrerPolicy="no-referrer"
+                src="https://images.unsplash.com/photo-1520975916090-3105956dac38?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
               />
             </div>
           </div>
