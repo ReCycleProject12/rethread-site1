@@ -109,32 +109,35 @@ export default function App() {
             </div>
           </div>
 
-          {/* Hero image collage */}
+                    {/* Hero image collage */}
           <div className="grid grid-cols-3 gap-3">
             <div className="col-span-2 row-span-2 rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
-                alt="Sneaker wall"
+                alt="Donated sneakers arranged in a circle"
                 className="h-full w-full object-cover"
-                referrerPolicy="no-referrer"
-                src="https://images.unsplash.com/photo-1556909212-d5c31eaad5a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80"
+                src="/images/hero-wide.jpg"
+                width={1600}
+                height={1040}
               />
             </div>
           
             <div className="rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
-                alt="Clothing rack"
+                alt="Clothing rack of jackets and shirts"
                 className="h-full w-full object-cover"
-                referrerPolicy="no-referrer"
-                src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
+                src="/images/hero-1.jpg"
+                width={900}
+                height={1200}
               />
             </div>
           
             <div className="rounded-3xl overflow-hidden shadow-lg ring-1 ring-emerald-100">
               <img
-                alt="Sorting donations"
+                alt="Thrift store aisle with colorful clothing"
                 className="h-full w-full object-cover"
-                referrerPolicy="no-referrer"
-                src="https://images.unsplash.com/photo-1520975916090-3105956dac38?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80"
+                src="/images/hero-2.jpg"
+                width={900}
+                height={1200}
               />
             </div>
           </div>
